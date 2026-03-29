@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #0a0e17;
+  --bg-secondary: #111827;
+  --bg-card: #1a2234;
+  --accent: #00b2ff;
+  --accent-hover: #0090d0;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.card {
+  background: var(--bg-card);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(0, 178, 255, 0.3);
+}
+
+.rarity-legendary { border-color: #f0b132; }
+.rarity-epic { border-color: #b94fe0; }
+.rarity-rare { border-color: #3f9fe0; }
+.rarity-uncommon { border-color: #60aa3a; }
+.rarity-common { border-color: #8c8c8c; }
+.rarity-mythic { border-color: #ffd700; }
+.rarity-marvel { border-color: #ed1d24; }
+.rarity-dc { border-color: #0078f0; }
+.rarity-icon { border-color: #00cccc; }
+.rarity-gaming { border-color: #7c5ff5; }
+.rarity-star { border-color: #ffe81f; }
