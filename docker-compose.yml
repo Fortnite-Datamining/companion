@@ -3,6 +3,6 @@ services:
     build: .
     restart: unless-stopped
     ports:
-      - "3002:3000"
+      - "3004:3000"
     environment:
       - FORTNITE_API_KEY=${FORTNITE_API_KEY}
