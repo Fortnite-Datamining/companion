@@ -6,6 +6,7 @@ const features = [
   { href: '/news', title: 'News', desc: 'Latest in-game announcements from Epic', icon: '📰' },
   { href: '/stats', title: 'Player Stats', desc: 'Look up any player by Epic username', icon: '📊' },
   { href: '/map', title: 'Map', desc: 'Current Battle Royale map with POIs', icon: '🗺️' },
+  { href: '/weapons', title: 'Weapons', desc: 'Compare any two weapons side by side', icon: '🔫' },
 ];
 
 export default async function Home() {

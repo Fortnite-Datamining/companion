@@ -9,6 +9,7 @@ const links = [
   { href: '/news', label: 'News' },
   { href: '/stats', label: 'Stats' },
   { href: '/map', label: 'Map' },
+  { href: '/weapons', label: 'Weapons' },
 ];
 
 export default function Nav() {
