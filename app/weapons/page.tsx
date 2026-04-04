@@ -1,17 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { WEAPONS, getUniqueWeapons, getWeaponDisplayName, compareWeapons, type Weapon, type ComparisonResult } from '@/lib/weapons';
-
-const rarityColors: Record<string, string> = {
-  common: '#8c8c8c',
-  uncommon: '#60aa3a',
-  rare: '#3f9fe0',
-  epic: '#b94fe0',
-  legendary: '#f0b132',
-  mythic: '#ffd700',
-  exotic: '#00cccc',
-};
+import { WEAPONS, getWeaponDisplayName, compareWeapons, type Weapon, type ComparisonResult } from '@/lib/weapons';
 
 function StatBar({ label, valueA, valueB, higher }: { label: string; valueA: string; valueB: string; higher: 'a' | 'b' | 'tie' }) {
   return (
@@ -51,11 +41,23 @@ function lower(a: number, b: number): 'a' | 'b' | 'tie' {
   return a < b ? 'a' : 'b';
 }
 
+const categoryLabels: Record<string, string> = {
+  assault: 'Assault Rifles',
+  smg: 'SMGs',
+  shotgun: 'Shotguns',
+  dmr: 'DMRs',
+  sniper: 'Snipers',
+  pistol: 'Pistols',
+  explosive: 'Explosives',
+  melee: 'Melee / Special',
+};
+
+const categories = ['assault', 'smg', 'shotgun', 'dmr', 'sniper', 'pistol', 'explosive', 'melee'] as const;
+
 export default function WeaponsPage() {
   const [weaponA, setWeaponA] = useState('');
   const [weaponB, setWeaponB] = useState('');
 
-  const allWeapons = getUniqueWeapons();
   const a = WEAPONS.find((w) => w.id === weaponA);
   const b = WEAPONS.find((w) => w.id === weaponB);
 
@@ -63,54 +65,45 @@ export default function WeaponsPage() {
   const winsA = results?.filter((r) => r.winner === 'a').length ?? 0;
   const winsB = results?.filter((r) => r.winner === 'b').length ?? 0;
 
-  const categories = ['assault', 'smg', 'shotgun', 'sniper', 'pistol', 'explosive'] as const;
+  function WeaponSelect({ value, onChange, label, color }: { value: string; onChange: (v: string) => void; label: string; color: string }) {
+    return (
+      <div>
+        <label className="text-xs font-semibold uppercase tracking-wide mb-2 block" style={{ color }}>{label}</label>
+        <select
+          value={value}
+          onChange={(e) => onChange(e.target.value)}
+          className="w-full px-4 py-2.5 rounded-lg border border-white/10 text-white"
+          style={{ background: 'var(--bg-card)' }}
+        >
+          <option value="">Select a weapon...</option>
+          {categories.map((cat) => {
+            const weaponsInCat = WEAPONS.filter((w) => w.category === cat);
+            if (weaponsInCat.length === 0) return null;
+            return (
+              <optgroup key={cat} label={categoryLabels[cat]}>
+                {weaponsInCat.map((w) => (
+                  <option key={w.id} value={w.id}>{w.name}</option>
+                ))}
+              </optgroup>
+            );
+          })}
+        </select>
+      </div>
+    );
+  }
 
   return (
     <div>
       <div className="mb-8">
         <h1 className="text-3xl font-bold">Weapon Comparison</h1>
         <p className="mt-1" style={{ color: 'var(--text-secondary)' }}>
-          Pick two weapons and see which wins in different scenarios
+          Chapter 7 Season 2 — pick two weapons and see which wins
         </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-        <div>
-          <label className="text-xs font-semibold uppercase tracking-wide mb-2 block" style={{ color: 'var(--accent)' }}>Weapon A</label>
-          <select
-            value={weaponA}
-            onChange={(e) => setWeaponA(e.target.value)}
-            className="w-full px-4 py-2.5 rounded-lg border border-white/10 text-white"
-            style={{ background: 'var(--bg-card)' }}
-          >
-            <option value="">Select a weapon...</option>
-            {categories.map((cat) => (
-              <optgroup key={cat} label={cat.charAt(0).toUpperCase() + cat.slice(1) + 's'}>
-                {allWeapons.filter((w) => WEAPONS.find((wp) => wp.id === w.id)?.category === cat).map((w) => (
-                  <option key={w.id} value={w.id}>{w.label}</option>
-                ))}
-              </optgroup>
-            ))}
-          </select>
-        </div>
-        <div>
-          <label className="text-xs font-semibold uppercase tracking-wide mb-2 block" style={{ color: '#b94fe0' }}>Weapon B</label>
-          <select
-            value={weaponB}
-            onChange={(e) => setWeaponB(e.target.value)}
-            className="w-full px-4 py-2.5 rounded-lg border border-white/10 text-white"
-            style={{ background: 'var(--bg-card)' }}
-          >
-            <option value="">Select a weapon...</option>
-            {categories.map((cat) => (
-              <optgroup key={cat} label={cat.charAt(0).toUpperCase() + cat.slice(1) + 's'}>
-                {allWeapons.filter((w) => WEAPONS.find((wp) => wp.id === w.id)?.category === cat).map((w) => (
-                  <option key={w.id} value={w.id}>{w.label}</option>
-                ))}
-              </optgroup>
-            ))}
-          </select>
-        </div>
+        <WeaponSelect value={weaponA} onChange={setWeaponA} label="Weapon A" color="var(--accent)" />
+        <WeaponSelect value={weaponB} onChange={setWeaponB} label="Weapon B" color="#b94fe0" />
       </div>
 
       {a && b && results && (
@@ -118,7 +111,7 @@ export default function WeaponsPage() {
           {/* Verdict */}
           <div className="card p-5 mb-6 text-center">
             {winsA === winsB ? (
-              <p className="text-xl font-bold">It's a draw!</p>
+              <p className="text-xl font-bold">It&apos;s a draw!</p>
             ) : (
               <p className="text-xl font-bold">
                 <span style={{ color: winsA > winsB ? 'var(--accent)' : '#b94fe0' }}>
@@ -135,11 +128,6 @@ export default function WeaponsPage() {
               <p className="text-right text-sm font-semibold" style={{ color: 'var(--accent)' }}>{a.name}</p>
               <p className="text-center text-xs" style={{ color: 'var(--text-secondary)' }}>VS</p>
               <p className="text-left text-sm font-semibold" style={{ color: '#b94fe0' }}>{b.name}</p>
-            </div>
-            <div className="grid grid-cols-3 mb-2">
-              <p className="text-right text-xs" style={{ color: rarityColors[a.rarity] }}>{a.rarity}</p>
-              <p className="text-center text-xs"></p>
-              <p className="text-left text-xs" style={{ color: rarityColors[b.rarity] }}>{b.rarity}</p>
             </div>
             <div className="border-t border-white/10 pt-3 space-y-0.5">
               <StatBar label="Damage" valueA={String(a.damage)} valueB={String(b.damage)} higher={higher(a.damage, b.damage)} />
