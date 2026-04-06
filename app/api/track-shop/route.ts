@@ -54,15 +54,10 @@ export async function GET() {
 
     const entries = shop.data?.entries || [];
     for (const entry of entries) {
-      const items = [
-        ...(entry.brItems || []),
-        ...(entry.tracks || []),
-        ...(entry.instruments || []),
-        ...(entry.cars || []),
-      ];
+      const items = entry.brItems || [];
 
       for (const item of items) {
-        if (!item.id) continue;
+        if (!item.id || !item.name) continue;
         const existing = history.items[item.id];
         if (existing) {
           if (!existing.dates.includes(today)) {
@@ -70,10 +65,10 @@ export async function GET() {
           }
         } else {
           history.items[item.id] = {
-            name: item.name || 'Unknown',
-            icon: item.images?.smallIcon || item.images?.icon || '',
+            name: item.name,
+            icon: item.images?.smallIcon || item.images?.icon || item.images?.featured || '',
             rarity: item.rarity?.value || 'common',
-            type: item.type?.displayValue || item.type?.value || '',
+            type: item.type?.displayValue || '',
             price: entry.finalPrice || 0,
             dates: [today],
           };
