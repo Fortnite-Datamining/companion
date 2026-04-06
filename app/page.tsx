@@ -3,6 +3,8 @@ import { getBuild } from '@/lib/fortnite-api';
 
 const features = [
   { href: '/shop', title: 'Item Shop', desc: "Today's shop with prices, rarity, and images", icon: '🛒' },
+  { href: '/cosmetics', title: 'Cosmetics', desc: 'Browse and search all Fortnite cosmetics', icon: '👤' },
+  { href: '/history', title: 'Shop History', desc: 'Track when items appear and predict returns', icon: '📅' },
   { href: '/news', title: 'News', desc: 'Latest in-game announcements from Epic', icon: '📰' },
   { href: '/stats', title: 'Player Stats', desc: 'Look up any player by Epic username', icon: '📊' },
   { href: '/map', title: 'Map', desc: 'Current Battle Royale map with POIs', icon: '🗺️' },
@@ -23,7 +25,7 @@ export default async function Home() {
         )}
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
         {features.map((f) => (
           <Link key={f.href} href={f.href} className="card p-6 block">
             <span className="text-3xl mb-3 block">{f.icon}</span>
