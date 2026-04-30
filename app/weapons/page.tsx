@@ -108,7 +108,6 @@ export default function WeaponsPage() {
 
       {a && b && results && (
         <>
-          {/* Verdict */}
           <div className="card p-5 mb-6 text-center">
             {winsA === winsB ? (
               <p className="text-xl font-bold">It&apos;s a draw!</p>
@@ -122,7 +121,6 @@ export default function WeaponsPage() {
             )}
           </div>
 
-          {/* Stat Comparison */}
           <div className="card p-5 mb-6">
             <div className="grid grid-cols-3 mb-3">
               <p className="text-right text-sm font-semibold" style={{ color: 'var(--accent)' }}>{a.name}</p>
@@ -140,7 +138,6 @@ export default function WeaponsPage() {
             </div>
           </div>
 
-          {/* Scenario Breakdown */}
           <div className="card p-5">
             <h2 className="text-lg font-semibold mb-4">Scenario Breakdown</h2>
             <div className="space-y-2">

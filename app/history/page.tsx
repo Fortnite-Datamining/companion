@@ -41,7 +41,6 @@ export default function HistoryPage() {
 
   useEffect(() => {
     async function load() {
-      // First, trigger tracking for today
       try {
         const trackRes = await fetch('/api/track-shop');
         const trackData = await trackRes.json();
@@ -54,7 +53,6 @@ export default function HistoryPage() {
         setTrackingStatus('Could not track today\'s shop');
       }
 
-      // Then load the history
       try {
         const res = await fetch('/api/shop-history');
         const data = await res.json();
@@ -103,7 +101,6 @@ export default function HistoryPage() {
         )}
       </div>
 
-      {/* Controls */}
       <div className="flex flex-col sm:flex-row gap-3 mb-6">
         <input
           type="text"
@@ -148,7 +145,6 @@ export default function HistoryPage() {
 
       {!loading && items.length > 0 && (
         <>
-          {/* In shop today */}
           {inShopToday.length > 0 && (
             <div className="mb-8">
               <h2 className="text-lg font-semibold mb-3 flex items-center gap-2">
@@ -163,7 +159,6 @@ export default function HistoryPage() {
             </div>
           )}
 
-          {/* Previously seen */}
           {notInShop.length > 0 && (
             <div>
               <h2 className="text-lg font-semibold mb-3">Previously Seen ({notInShop.length})</h2>

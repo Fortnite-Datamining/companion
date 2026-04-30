@@ -97,7 +97,6 @@ export default function CosmeticsPage() {
         </p>
       </div>
 
-      {/* Search + Filters */}
       <div className="flex flex-col sm:flex-row gap-3 mb-6">
         <input
           type="text"
@@ -124,12 +123,10 @@ export default function CosmeticsPage() {
         </div>
       </div>
 
-      {/* Loading */}
       {loading && (
         <p className="text-center py-8" style={{ color: 'var(--text-secondary)' }}>Searching...</p>
       )}
 
-      {/* Results Grid */}
       {!loading && results.length > 0 && (
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
           {results.map((item) => (
@@ -164,19 +161,16 @@ export default function CosmeticsPage() {
         </div>
       )}
 
-      {/* No results */}
       {!loading && hasSearched && results.length === 0 && (
         <p className="text-center py-12" style={{ color: 'var(--text-secondary)' }}>No cosmetics found.</p>
       )}
 
-      {/* Empty state */}
       {!hasSearched && !loading && (
         <p className="text-center py-12" style={{ color: 'var(--text-secondary)' }}>
           Type at least 2 characters to search.
         </p>
       )}
 
-      {/* Detail Modal */}
       {selected && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center p-4"
@@ -188,7 +182,6 @@ export default function CosmeticsPage() {
             style={{ background: 'var(--bg-secondary)' }}
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Header image */}
             <div
               className="relative aspect-[4/3] rounded-t-2xl overflow-hidden"
               style={{ background: `linear-gradient(135deg, ${getRarityColor(selected)}33, ${getRarityColor(selected)}11)` }}
@@ -219,7 +212,6 @@ export default function CosmeticsPage() {
                 <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>{selected.description}</p>
               )}
 
-              {/* Meta info */}
               <div className="grid grid-cols-2 gap-3 mb-4">
                 {selected.set && (
                   <div className="rounded-lg p-3" style={{ background: 'var(--bg-card)' }}>
@@ -241,7 +233,6 @@ export default function CosmeticsPage() {
                 )}
               </div>
 
-              {/* Variants */}
               {selected.variants && selected.variants.length > 0 && (
                 <div className="mb-4">
                   <p className="text-sm font-semibold mb-2">Styles</p>
@@ -260,7 +251,6 @@ export default function CosmeticsPage() {
                 </div>
               )}
 
-              {/* Showcase Video */}
               {selected.showcaseVideo && (
                 <div className="mb-2">
                   <p className="text-sm font-semibold mb-2">Showcase</p>
