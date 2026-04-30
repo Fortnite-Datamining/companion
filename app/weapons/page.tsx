@@ -97,7 +97,7 @@ export default function WeaponsPage() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold">Weapon Comparison</h1>
         <p className="mt-1" style={{ color: 'var(--text-secondary)' }}>
-          Chapter 7 Season 2 — pick two weapons and see which wins
+          Chapter 7 Season 2 - pick two weapons and see which wins
         </p>
       </div>
 

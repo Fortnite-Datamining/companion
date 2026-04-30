@@ -1,0 +1,1425 @@
+{
+  "lastTracked": "2026-04-06",
+  "items": {
+    "Backpack_FlickLedge": {
+      "name": "Underworld Poison",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_flickledge/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_BrawnGraze": {
+      "name": "Buff Perry",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_brawngraze/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 3200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_BrawnGraze": {
+      "name": "Ducky Momo Plushie",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_brawngraze/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 3200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_BrawnGraze": {
+      "name": "Perry the Inaction Figure",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_brawngraze/smallicon.png",
+      "rarity": "rare",
+      "type": "Pickaxe",
+      "price": 3200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_PeaceScarf": {
+      "name": "Dr. Doofenshmirtz",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_peacescarf/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 3200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_PeaceScarf": {
+      "name": "Balloony",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_peacescarf/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 3200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_PeaceScarf": {
+      "name": "Gnome-Clamp-inator",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_peacescarf/smallicon.png",
+      "rarity": "rare",
+      "type": "Pickaxe",
+      "price": 3200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_PeaceScarf": {
+      "name": "Doof's High Kicks",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_peacescarf/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Emote",
+      "price": 3200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_034_Athena_Commando_F_Medieval": {
+      "name": "Red Knight",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_034_athena_commando_f_medieval/smallicon.png",
+      "rarity": "legendary",
+      "type": "Outfit",
+      "price": 2000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_003_RedKnight": {
+      "name": "Red Shield",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_003_redknight/smallicon.png",
+      "rarity": "legendary",
+      "type": "Back Bling",
+      "price": 2000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_824_Athena_Commando_F_RaiderPink": {
+      "name": "Athleisure Assassin",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_824_athena_commando_f_raiderpink/smallicon.png",
+      "rarity": "rare",
+      "type": "Outfit",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_577_RaiderPink": {
+      "name": "Haute Holster",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_577_raiderpink/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_A_157_Athena_Commando_F_Stereo_3A08Z": {
+      "name": "Gamora",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_a_157_athena_commando_f_stereo_3a08z/smallicon.png",
+      "rarity": "marvel",
+      "type": "Outfit",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_819_Stereo_TE8RC": {
+      "name": "Gamora's Cloak",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_819_stereo_te8rc/smallicon.png",
+      "rarity": "marvel",
+      "type": "Back Bling",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_103_Athena_Commando_M_Bunny": {
+      "name": "Rabbit Raider",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_103_athena_commando_m_bunny/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_037_BunnyMale": {
+      "name": "Hard Boiled",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_037_bunnymale/smallicon.png",
+      "rarity": "epic",
+      "type": "Back Bling",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_BrawnGraze_Guitar": {
+      "name": "Agent G Sharp",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_brawngraze_guitar/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_BrawnGraze_Guitar": {
+      "name": "Agent G Sharp",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_brawngraze_guitar/smallicon.png",
+      "rarity": "rare",
+      "type": "Pickaxe",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_LadderDoor": {
+      "name": "Blooming Cherub",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ladderdoor/smallicon.png",
+      "rarity": "rare",
+      "type": "Pickaxe",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Wrap_DriedSilk": {
+      "name": "Wrap-pool",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_driedsilk/smallicon.png",
+      "rarity": "marvel",
+      "type": "Wrap",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_DriedSilk_Bass": {
+      "name": "DP's Bass",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_driedsilk_bass/smallicon.png",
+      "rarity": "marvel",
+      "type": "Back Bling",
+      "price": 1000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_DriedSilk_Bass": {
+      "name": "DP's Bass",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_driedsilk_bass/smallicon.png",
+      "rarity": "marvel",
+      "type": "Pickaxe",
+      "price": 1000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_PiteousKicksCape": {
+      "name": "Golden King's Cape",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_piteouskickscape/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_CoyoTear": {
+      "name": "Tigress",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_coyotear/smallicon.png",
+      "rarity": "rare",
+      "type": "Outfit",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_CoyoTear": {
+      "name": "Cybertooth Tiger",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_coyotear/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_391_Athena_Commando_M_HoppityHeist": {
+      "name": "Hopper",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_391_athena_commando_m_hoppityheist/smallicon.png",
+      "rarity": "rare",
+      "type": "Outfit",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_253_HoppityHeist": {
+      "name": "Bunny Bag",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_253_hoppityheist/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Shoes_SaintApplyTask": {
+      "name": "Converse Chuck 70 'Cracked Egg'",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_saintapplytask/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Shoes",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_BestDressedFNCS": {
+      "name": "Champion's Blade",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_bestdressedfncs/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Pickaxe",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_PiteousKicks": {
+      "name": "Ascendant Midas",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_piteouskicks/smallicon.png",
+      "rarity": "legendary",
+      "type": "Outfit",
+      "price": 2000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_OliveStomp": {
+      "name": "Wade's Prank",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_olivestomp/smallicon.png",
+      "rarity": "marvel",
+      "type": "Back Bling",
+      "price": 400,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Wrap_RinkHat": {
+      "name": "Sasclash Shutout",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_rinkhat/smallicon.png",
+      "rarity": "rare",
+      "type": "Wrap",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_BeachBreak": {
+      "name": "California Love",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_beachbreak/smallicon.png",
+      "rarity": "icon",
+      "type": "Emote",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_RinkHat": {
+      "name": "Slapshot Scorer",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rinkhat/smallicon.png",
+      "rarity": "rare",
+      "type": "Pickaxe",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_BigStepper": {
+      "name": "Big Dawgs",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_bigstepper/smallicon.png",
+      "rarity": "icon",
+      "type": "Emote",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_400_Athena_Commando_M_AshtonSaltLake": {
+      "name": "Star-Lord Outfit",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_400_athena_commando_m_ashtonsaltlake/smallicon.png",
+      "rarity": "marvel",
+      "type": "Outfit",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_259_Ashton_SaltLake": {
+      "name": "Star-Lord Pack",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_259_ashton_saltlake/smallicon.png",
+      "rarity": "marvel",
+      "type": "Back Bling",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_ID_203_AshtonSaltLake": {
+      "name": "Guardian Axe",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_203_ashtonsaltlake/smallicon.png",
+      "rarity": "marvel",
+      "type": "Pickaxe",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_742_Athena_Commando_M_ChocoBunny": {
+      "name": "Bun Bun",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_742_athena_commando_m_chocobunny/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_509_ChocoBunny": {
+      "name": "Choco Shell",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_509_chocobunny/smallicon.png",
+      "rarity": "epic",
+      "type": "Back Bling",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_149_Athena_Commando_F_SoccerGirlB": {
+      "name": "Poised Playmaker",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_149_athena_commando_f_soccergirlb/smallicon.png",
+      "rarity": "rare",
+      "type": "Outfit",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_MustardRocket": {
+      "name": "TV Off",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_mustardrocket/smallicon.png",
+      "rarity": "icon",
+      "type": "Emote",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_Princess": {
+      "name": "Feelin' Royal",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_princess/smallicon.png",
+      "rarity": "icon",
+      "type": "Emote",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_PiteousKicks": {
+      "name": "The Golden Touch",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_piteouskicks/smallicon.png",
+      "rarity": "rare",
+      "type": "Pickaxe",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_LadderDoor": {
+      "name": "Muse's Amphora",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_ladderdoor/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_ParadeLotus": {
+      "name": "Hercules",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_paradelotus/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 4000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_ParadeLotusCape": {
+      "name": "Herc's Mantle",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_paradelotuscape/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 4000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_LadderDoor": {
+      "name": "Megara",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_ladderdoor/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Outfit",
+      "price": 4000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_FlickLedge": {
+      "name": "Hades (Lord of the Dead)",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_flickledge/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 4000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_ParadeLotus": {
+      "name": "Herc's Feats",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_paradelotus/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Emote",
+      "price": 4000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_ParadeLotus": {
+      "name": "Olympian's Shield",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_paradelotus/smallicon.png",
+      "rarity": "rare",
+      "type": "Pickaxe",
+      "price": 4000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_FlickLedge": {
+      "name": "Hades' Staff",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_flickledge/smallicon.png",
+      "rarity": "rare",
+      "type": "Pickaxe",
+      "price": 4000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_Ordinary": {
+      "name": "Stoic",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_ordinary/smallicon.png",
+      "rarity": "icon",
+      "type": "Emote",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_DriedSilk": {
+      "name": "DP's Katanas",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_driedsilk/smallicon.png",
+      "rarity": "marvel",
+      "type": "Pickaxe",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_Resonant": {
+      "name": "Interstellar Bass",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_resonant/smallicon.png",
+      "rarity": "icon",
+      "type": "Emote",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_RinkHat_Trick": {
+      "name": "Hattie Chirps",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_rinkhat_trick/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_RinkHat": {
+      "name": "Sasclash Stuffie",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_rinkhat/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Wrap_EggRiser": {
+      "name": "Egg Hunt",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_eggriser/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Wrap",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Wrap_PuzzleSprout": {
+      "name": "Bunny Paw'd",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_puzzlesprout/smallicon.png",
+      "rarity": "rare",
+      "type": "Wrap",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_SlidingStone": {
+      "name": "Curling Match",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_slidingstone/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Emote",
+      "price": 400,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_BestDressedFNCS": {
+      "name": "Champion Stash'd",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_bestdressedfncs/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Outfit",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_BunnyBR": {
+      "name": "Miss Bunny Penny",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_bunnybr/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Outfit",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Glider_OliveStomp": {
+      "name": "Wolverine Dropper",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/glider_olivestomp/smallicon.png",
+      "rarity": "marvel",
+      "type": "Glider",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Wrap_Comp28": {
+      "name": "Champion's Colors",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_comp28/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Wrap",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_732_HipHareMale": {
+      "name": "Skellebun Key",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_732_hipharemale/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_A_439_Athena_Commando_M_Trifle": {
+      "name": "Thor Odinson",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_a_439_athena_commando_m_trifle/smallicon.png",
+      "rarity": "marvel",
+      "type": "Outfit",
+      "price": 1800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_A_036_TrifleMale": {
+      "name": "Thor's Cape",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_a_036_triflemale/smallicon.png",
+      "rarity": "marvel",
+      "type": "Back Bling",
+      "price": 1800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_ID_828_TrifleMale": {
+      "name": "Stormbreaker",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_828_triflemale/smallicon.png",
+      "rarity": "marvel",
+      "type": "Pickaxe",
+      "price": 1800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Shoes_MarshCityQuagga": {
+      "name": "Air Jordan 11 Retro 'Animal Instinct'",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_marshcityquagga/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Shoes",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_489_TwinDark": {
+      "name": "True Reflection",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_489_twindark/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_BrineGleam": {
+      "name": "Bunny Hops",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_brinegleam/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_397_Athena_Commando_F_TreasureHunterFashion": {
+      "name": "Aura",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_397_athena_commando_f_treasurehunterfashion/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Outfit",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Glider_RinkHat": {
+      "name": "Sasclash Soarer",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/glider_rinkhat/smallicon.png",
+      "rarity": "epic",
+      "type": "Glider",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_ID_197_HoppityHeist": {
+      "name": "Bold Bar",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_197_hoppityheist/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Pickaxe",
+      "price": 1300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_A_051_Athena_Commando_M_HipHare": {
+      "name": "Dutch",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_a_051_athena_commando_m_hiphare/smallicon.png",
+      "rarity": "rare",
+      "type": "Outfit",
+      "price": 1700,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_ID_573_HipHareMale": {
+      "name": "Candlehopera",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_573_hipharemale/smallicon.png",
+      "rarity": "rare",
+      "type": "Pickaxe",
+      "price": 1700,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_Bunnyhop": {
+      "name": "Bunny Hop",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_bunnyhop/smallicon.png",
+      "rarity": "rare",
+      "type": "Emote",
+      "price": 1700,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_SulfurDean": {
+      "name": "Beavis",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_sulfurdean/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_EggBounce": {
+      "name": "Egg Dropper",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_eggbounce/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Emote",
+      "price": 400,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_387_Athena_Commando_F_Golf": {
+      "name": "Birdie",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_387_athena_commando_f_golf/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Outfit",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_698_StreetCuddlesMale": {
+      "name": "Stuffy Sack",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_698_streetcuddlesmale/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_A_047_Athena_Commando_F_Windwalker": {
+      "name": "Windwalker Echo",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_a_047_athena_commando_f_windwalker/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Outfit",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_NotchGnarl": {
+      "name": "Duck Dodgers' Rocket",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_notchgnarl/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_NotchGnarl": {
+      "name": "Daffy Duck",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_notchgnarl/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 3200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_BrineGleam": {
+      "name": "Lola Bunny",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_brinegleam/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 3200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_NotchGnarl": {
+      "name": "Quacking Up",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_notchgnarl/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Emote",
+      "price": 3200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_BrineGleam": {
+      "name": "Lola's Game Ball",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_brinegleam/smallicon.png",
+      "rarity": "rare",
+      "type": "Pickaxe",
+      "price": 3200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_NotchGnarl": {
+      "name": "The Golden Daffy",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_notchgnarl/smallicon.png",
+      "rarity": "rare",
+      "type": "Pickaxe",
+      "price": 3200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Wrap_PiteousKicks": {
+      "name": "Golden Ascension",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_piteouskicks/smallicon.png",
+      "rarity": "rare",
+      "type": "Wrap",
+      "price": 2500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Companion_DroneGravy": {
+      "name": "Groot",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/companion_dronegravy/smallicon.png",
+      "rarity": "marvel",
+      "type": "Sidekick",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_104_Athena_Commando_F_Bunny": {
+      "name": "Bunny Brawler",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_104_athena_commando_f_bunny/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_038_BunnyFemale": {
+      "name": "Eggshell",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_038_bunnyfemale/smallicon.png",
+      "rarity": "epic",
+      "type": "Back Bling",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_BisonDrain": {
+      "name": "Portable Laugh Track",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_bisondrain/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_DriedSilk": {
+      "name": "What!? No Way!",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_driedsilk/smallicon.png",
+      "rarity": "marvel",
+      "type": "Emote",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_A_011_Athena_Commando_M_StreetCuddles": {
+      "name": "Cuddle King",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_a_011_athena_commando_m_streetcuddles/smallicon.png",
+      "rarity": "rare",
+      "type": "Outfit",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Glider_DriedSilk": {
+      "name": "Deadpool Dropper",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/glider_driedsilk/smallicon.png",
+      "rarity": "marvel",
+      "type": "Glider",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_ID_374_TwinDarkFemale1H": {
+      "name": "Inversion Blades",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_374_twindarkfemale1h/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Pickaxe",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Shoes_MarshCityMammoth": {
+      "name": "Air Jordan 3 Retro 'Animal Instinct'",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_marshcitymammoth/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Shoes",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_807_Menace": {
+      "name": "Infinity Gauntlet",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_807_menace/smallicon.png",
+      "rarity": "marvel",
+      "type": "Back Bling",
+      "price": 400,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_OliveStomp_Guitar": {
+      "name": "Wolverine's Axe",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_olivestomp_guitar/smallicon.png",
+      "rarity": "marvel",
+      "type": "Back Bling",
+      "price": 1000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_OliveStomp_Guitar": {
+      "name": "Wolverine's Axe",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_olivestomp_guitar/smallicon.png",
+      "rarity": "marvel",
+      "type": "Pickaxe",
+      "price": 1000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Wrap_TrowelRake": {
+      "name": "Screwy, ain't it?",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_trowelrake/smallicon.png",
+      "rarity": "rare",
+      "type": "Wrap",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_LimettaMech": {
+      "name": "Oona Usagi",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_limettamech/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Shoes_WhimFlairCalcite": {
+      "name": "Nike Air Force 1 Low ‘Easter’",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_whimflaircalcite/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Shoes",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_BisonDrain": {
+      "name": "Death Rockers",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_bisondrain/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Emote",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_DriedSilk": {
+      "name": "Deadpool (Pen & Ink)",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_driedsilk/smallicon.png",
+      "rarity": "marvel",
+      "type": "Outfit",
+      "price": 2000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_DriedSilk": {
+      "name": "Headpool",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_driedsilk/smallicon.png",
+      "rarity": "marvel",
+      "type": "Back Bling",
+      "price": 2000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_715_Athena_Commando_F_TwinDark": {
+      "name": "Echo",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_715_athena_commando_f_twindark/smallicon.png",
+      "rarity": "rare",
+      "type": "Outfit",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_AshtonSaltLake": {
+      "name": "Dance Off",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_ashtonsaltlake/smallicon.png",
+      "rarity": "marvel",
+      "type": "Emote",
+      "price": 2500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Glider_ID_142_AshtonSaltLake": {
+      "name": "The Milano",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/glider_id_142_ashtonsaltlake/smallicon.png",
+      "rarity": "marvel",
+      "type": "Glider",
+      "price": 2500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_Devotion": {
+      "name": "Without You",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_devotion/smallicon.png",
+      "rarity": "icon",
+      "type": "Emote",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_SulfurDean": {
+      "name": "Cornholio Walk",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_sulfurdean/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Emote",
+      "price": 400,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Wrap_OliveStomp": {
+      "name": "Classic Yellow & Blue",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_olivestomp/smallicon.png",
+      "rarity": "marvel",
+      "type": "Wrap",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_024_Athena_Commando_F": {
+      "name": "Recon Specialist",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_024_athena_commando_f/smallicon.png",
+      "rarity": "rare",
+      "type": "Outfit",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_A_128_Athena_Commando_M_Menace": {
+      "name": "Thanos",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_a_128_athena_commando_m_menace/smallicon.png",
+      "rarity": "marvel",
+      "type": "Outfit",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_GrumbleWoof": {
+      "name": "Chef",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_grumblewoof/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_BunnyFlop": {
+      "name": "Hoppity",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_bunnyflop/smallicon.png",
+      "rarity": "rare",
+      "type": "Emote",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_BisonDrain": {
+      "name": "Frog Baseball Bat",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_bisondrain/smallicon.png",
+      "rarity": "rare",
+      "type": "Pickaxe",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_805_Athena_Commando_F_PunkDevilSummer": {
+      "name": "Surf Witch",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_805_athena_commando_f_punkdevilsummer/smallicon.png",
+      "rarity": "rare",
+      "type": "Outfit",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "BID_558_PunkDevilSummer": {
+      "name": "Starpower",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/bid_558_punkdevilsummer/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_TrowelRake": {
+      "name": "Rabbit Season",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_trowelrake/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Emote",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_BisonDrain": {
+      "name": "Butt-Head",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_bisondrain/smallicon.png",
+      "rarity": "epic",
+      "type": "Outfit",
+      "price": 2800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Backpack_SulfurDean": {
+      "name": "Talking Trashfire",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_sulfurdean/smallicon.png",
+      "rarity": "rare",
+      "type": "Back Bling",
+      "price": 2800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_SulfurDean": {
+      "name": "Flaming Newspapers",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_sulfurdean/smallicon.png",
+      "rarity": "rare",
+      "type": "Pickaxe",
+      "price": 2800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Companion_MummyPast": {
+      "name": "Super Meat Boy",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/companion_mummypast/smallicon.png",
+      "rarity": "gaminglegends",
+      "type": "Sidekick",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Wrap_229_ChocoBunny": {
+      "name": "Chocolatey",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_229_chocobunny/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Wrap",
+      "price": 1600,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Shoes_ChoirFrameNet": {
+      "name": "Air Jordan 1 Retro High OG 'Psychic Blue'",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_choirframenet/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Shoes",
+      "price": 1000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Shoes_FrontDukeBedlam": {
+      "name": "Vans Skate Curren Caples 'Grey'",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_frontdukebedlam/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Shoes",
+      "price": 1000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Character_OliveStomp": {
+      "name": "Wolverine (Pen & Ink)",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/character_olivestomp/smallicon.png",
+      "rarity": "marvel",
+      "type": "Outfit",
+      "price": 2000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_OliveStomp": {
+      "name": "Wolverine's Claws",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_olivestomp/smallicon.png",
+      "rarity": "marvel",
+      "type": "Pickaxe",
+      "price": 2000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_OliveStomp": {
+      "name": "SNIKT-ing Go Time",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_olivestomp/smallicon.png",
+      "rarity": "marvel",
+      "type": "Emote",
+      "price": 2000,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Companion_HoppyBun": {
+      "name": "Bun Bun Jr.",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/companion_hoppybun/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Sidekick",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Glider_ID_306_StereoFemale_0ZZCF": {
+      "name": "Godslayer Glideboard",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/glider_id_306_stereofemale_0zzcf/smallicon.png",
+      "rarity": "marvel",
+      "type": "Glider",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_BaggyBop": {
+      "name": "Come Baby Come",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_baggybop/smallicon.png",
+      "rarity": "icon",
+      "type": "Emote",
+      "price": 500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "EID_Snap": {
+      "name": "Snap",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/eid_snap/smallicon.png",
+      "rarity": "marvel",
+      "type": "Emote",
+      "price": 200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Wrap_221_TwinDark": {
+      "name": "Echoes",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_221_twindark/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Wrap",
+      "price": 300,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Pickaxe_ID_648_StereoFemale_0DTZ9": {
+      "name": "The Godslayer",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_648_stereofemale_0dtz9/smallicon.png",
+      "rarity": "marvel",
+      "type": "Pickaxe",
+      "price": 2200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_255_Athena_Commando_F_HalloweenBunny": {
+      "name": "Bunnymoon",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_255_athena_commando_f_halloweenbunny/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Outfit",
+      "price": 800,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "CID_828_Athena_Commando_F_Valet": {
+      "name": "Pitstop",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/cid_828_athena_commando_f_valet/smallicon.png",
+      "rarity": "rare",
+      "type": "Outfit",
+      "price": 1200,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Glider_ID_203_TwinDarkFemale": {
+      "name": "Echo Jet",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/glider_id_203_twindarkfemale/smallicon.png",
+      "rarity": "rare",
+      "type": "Glider",
+      "price": 1900,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Companion_WideSnore": {
+      "name": "Doggo Jr.",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/companion_widesnore/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Sidekick",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    },
+    "Companion_RoseBruin": {
+      "name": "Cuddle Team Jr. ",
+      "icon": "https://fortnite-api.com/images/cosmetics/br/companion_rosebruin/smallicon.png",
+      "rarity": "uncommon",
+      "type": "Sidekick",
+      "price": 1500,
+      "dates": [
+        "2026-04-06"
+      ]
+    }
+  }
+}

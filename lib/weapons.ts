@@ -21,7 +21,7 @@ export const WEAPONS: Weapon[] = [
   // Assault Rifles
   { id: 'combat_ar', name: 'Combat Assault Rifle', category: 'assault', damage: 21, headshot: 31, fireRate: 9.0, magSize: 35, reloadTime: 2.9, buildDamage: 21, range: 'mid', dps: dps(21, 9.0), notes: 'High fire rate, great for spraying' },
   { id: 'nemesis_ar', name: 'Nemesis AR', category: 'assault', damage: 33, headshot: 49, fireRate: 5.0, magSize: 28, reloadTime: 2.4, buildDamage: 33, range: 'mid', dps: dps(33, 5.0), notes: 'Balanced AR, solid at all ranges' },
-  { id: 'squibblys_combat_ar', name: "Squibbly's Combat AR", category: 'assault', damage: 25, headshot: 37, fireRate: 9.0, magSize: 35, reloadTime: 2.6, buildDamage: 25, range: 'mid', dps: dps(25, 9.0), notes: 'Mythic — fire rate ramps up when held' },
+  { id: 'squibblys_combat_ar', name: "Squibbly's Combat AR", category: 'assault', damage: 25, headshot: 37, fireRate: 9.0, magSize: 35, reloadTime: 2.6, buildDamage: 25, range: 'mid', dps: dps(25, 9.0), notes: 'Mythic - fire rate ramps up when held' },
 
   // SMGs
   { id: 'thunder_burst_smg', name: 'Thunder Burst SMG', category: 'smg', damage: 27, headshot: 51, fireRate: 4.25, magSize: 24, reloadTime: 2.2, buildDamage: 27, range: 'close', dps: dps(27, 4.25), notes: '3-round burst, 100% hip-fire accuracy with laser' },
@@ -31,27 +31,27 @@ export const WEAPONS: Weapon[] = [
   { id: 'iron_pump', name: 'Iron Pump Shotgun', category: 'shotgun', damage: 101, headshot: 165, fireRate: 0.8, magSize: 5, reloadTime: 5.1, buildDamage: 101, range: 'close', dps: dps(101, 0.8), notes: '10 pellets per shot, per-shell reload' },
   { id: 'twin_hammer', name: 'Twin Hammer Shotguns', category: 'shotgun', damage: 35, headshot: 61, fireRate: 3.0, magSize: 10, reloadTime: 4.5, buildDamage: 35, range: 'close', dps: dps(35, 3.0), notes: 'Alternating barrels, fastest shotgun' },
   { id: 'chaos_reloader', name: 'Chaos Reloader Shotgun', category: 'shotgun', damage: 160, headshot: 175, fireRate: 0.55, magSize: 1, reloadTime: 1.2, buildDamage: 160, range: 'close', dps: dps(160, 0.55), notes: 'Auto-reloads when stowed, tight spread' },
-  { id: 'dark_voyager_obliterator', name: "Dark Voyager's Obliterator", category: 'shotgun', damage: 179, headshot: 175, fireRate: 0.55, magSize: 2, reloadTime: 1.2, buildDamage: 179, range: 'close', dps: dps(179, 0.55), notes: 'Mythic Chaos Reloader — 2 shots, auto-reloads when stowed' },
+  { id: 'dark_voyager_obliterator', name: "Dark Voyager's Obliterator", category: 'shotgun', damage: 179, headshot: 175, fireRate: 0.55, magSize: 2, reloadTime: 1.2, buildDamage: 179, range: 'close', dps: dps(179, 0.55), notes: 'Mythic Chaos Reloader - 2 shots, auto-reloads when stowed' },
 
   // DMR / Marksman
   { id: 'vector7_dmr', name: 'Vector 7 DMR', category: 'dmr', damage: 68, headshot: 119, fireRate: 2.5, magSize: 5, reloadTime: 2.5, buildDamage: 68, range: 'long', dps: dps(68, 2.5), notes: 'Hitscan under 100m, bullet drop beyond' },
-  { id: 'foundations_rift_rifle', name: "The Foundation's Rift Rifle", category: 'dmr', damage: 71, headshot: 124, fireRate: 2.5, magSize: 5, reloadTime: 2.5, buildDamage: 71, range: 'long', dps: dps(71, 2.5), notes: 'Exotic — charged shot spawns a teleport rift' },
+  { id: 'foundations_rift_rifle', name: "The Foundation's Rift Rifle", category: 'dmr', damage: 71, headshot: 124, fireRate: 2.5, magSize: 5, reloadTime: 2.5, buildDamage: 71, range: 'long', dps: dps(71, 2.5), notes: 'Exotic - charged shot spawns a teleport rift' },
 
   // Snipers
-  { id: 'tracking_rifle', name: 'Lawful Heavy Impact Tracking Rifle', category: 'sniper', damage: 138, headshot: 345, fireRate: 0.64, magSize: 1, reloadTime: 2.7, buildDamage: 193, range: 'long', dps: dps(138, 0.64), notes: 'Exotic — marks enemies for 10s, 3x vehicle damage' },
+  { id: 'tracking_rifle', name: 'Lawful Heavy Impact Tracking Rifle', category: 'sniper', damage: 138, headshot: 345, fireRate: 0.64, magSize: 1, reloadTime: 2.7, buildDamage: 193, range: 'long', dps: dps(138, 0.64), notes: 'Exotic - marks enemies for 10s, 3x vehicle damage' },
 
   // Pistols
   { id: 'pistol', name: 'Pistol', category: 'pistol', damage: 26, headshot: 45, fireRate: 6.75, magSize: 16, reloadTime: 1.4, buildDamage: 26, range: 'mid', dps: dps(26, 6.75), notes: 'Classic sidearm, fast and reliable' },
-  { id: 'mammoth_pistol', name: 'Lawful Explosive Mammoth Pistol', category: 'pistol', damage: 110, headshot: 148, fireRate: 1.0, magSize: 1, reloadTime: 1.71, buildDamage: 140, range: 'mid', dps: dps(110, 1.0), notes: 'Exotic — 55 bullet + 55 explosion damage' },
+  { id: 'mammoth_pistol', name: 'Lawful Explosive Mammoth Pistol', category: 'pistol', damage: 110, headshot: 148, fireRate: 1.0, magSize: 1, reloadTime: 1.71, buildDamage: 140, range: 'mid', dps: dps(110, 1.0), notes: 'Exotic - 55 bullet + 55 explosion damage' },
 
   // Explosives
-  { id: 'bouncing_boomstick', name: 'Bouncing Boomstick', category: 'explosive', damage: 40, headshot: 40, fireRate: 1.0, magSize: 3, reloadTime: 0, buildDamage: 80, range: 'mid', dps: dps(40, 4.0), notes: 'Throwable — bounces and explodes 4 times (160 max)' },
-  { id: 'shockwave_rl', name: 'Lawful Shockwave Rocket Launcher', category: 'explosive', damage: 30, headshot: 30, fireRate: 0.75, magSize: 1, reloadTime: 2.5, buildDamage: 100, range: 'mid', dps: dps(30, 0.75), notes: 'Exotic — launches players away, minimal damage' },
-  { id: 'cluster_cannon', name: 'Seven Cluster Cannon', category: 'explosive', damage: 77, headshot: 77, fireRate: 1.0, magSize: 1, reloadTime: 3.0, buildDamage: 200, range: 'mid', dps: dps(77, 1.0), notes: 'Legendary — splits into 7 cluster explosives on impact' },
+  { id: 'bouncing_boomstick', name: 'Bouncing Boomstick', category: 'explosive', damage: 40, headshot: 40, fireRate: 1.0, magSize: 3, reloadTime: 0, buildDamage: 80, range: 'mid', dps: dps(40, 4.0), notes: 'Throwable - bounces and explodes 4 times (160 max)' },
+  { id: 'shockwave_rl', name: 'Lawful Shockwave Rocket Launcher', category: 'explosive', damage: 30, headshot: 30, fireRate: 0.75, magSize: 1, reloadTime: 2.5, buildDamage: 100, range: 'mid', dps: dps(30, 0.75), notes: 'Exotic - launches players away, minimal damage' },
+  { id: 'cluster_cannon', name: 'Seven Cluster Cannon', category: 'explosive', damage: 77, headshot: 77, fireRate: 1.0, magSize: 1, reloadTime: 3.0, buildDamage: 200, range: 'mid', dps: dps(77, 1.0), notes: 'Legendary - splits into 7 cluster explosives on impact' },
 
   // Melee / Special
-  { id: 'power_gloves', name: 'Seven Power Gloves', category: 'melee', damage: 50, headshot: 50, fireRate: 1.5, magSize: 4, reloadTime: 11.0, buildDamage: 50, range: 'close', dps: dps(50, 1.5), notes: 'Punch 50, dash 40, uppercut 70 — great mobility' },
-  { id: 'ice_king_gauntlets', name: "Ice King's Gauntlets", category: 'melee', damage: 50, headshot: 50, fireRate: 2.0, magSize: 10, reloadTime: 3.0, buildDamage: 50, range: 'close', dps: dps(50, 2.0), notes: 'Mythic — ice bomb 65 dmg, blizzard 5 dps area denial' },
+  { id: 'power_gloves', name: 'Seven Power Gloves', category: 'melee', damage: 50, headshot: 50, fireRate: 1.5, magSize: 4, reloadTime: 11.0, buildDamage: 50, range: 'close', dps: dps(50, 1.5), notes: 'Punch 50, dash 40, uppercut 70 - great mobility' },
+  { id: 'ice_king_gauntlets', name: "Ice King's Gauntlets", category: 'melee', damage: 50, headshot: 50, fireRate: 2.0, magSize: 10, reloadTime: 3.0, buildDamage: 50, range: 'close', dps: dps(50, 2.0), notes: 'Mythic - ice bomb 65 dmg, blizzard 5 dps area denial' },
   { id: 'harpoon_gun', name: 'Harpoon Gun', category: 'melee', damage: 75, headshot: 75, fireRate: 0.75, magSize: 20, reloadTime: 0, buildDamage: 150, range: 'mid', dps: dps(75, 0.75), notes: '20 charges, pulls enemies toward you, missed shots free' },
 ];
 
@@ -140,8 +140,8 @@ export function compareWeapons(a: Weapon, b: Weapon): ComparisonResult[] {
       : maxB >= 200 && maxA < 200
         ? `${b.name} can one-shot with a headshot (${maxB} damage)`
         : maxA >= 200 && maxB >= 200
-          ? `Both can one-shot — ${(maxA > maxB ? a : b).name} hits harder (${Math.max(maxA, maxB)} vs ${Math.min(maxA, maxB)})`
-          : `Neither can one-shot — max headshot: ${Math.max(maxA, maxB)} vs ${Math.min(maxA, maxB)}`,
+          ? `Both can one-shot - ${(maxA > maxB ? a : b).name} hits harder (${Math.max(maxA, maxB)} vs ${Math.min(maxA, maxB)})`
+          : `Neither can one-shot - max headshot: ${Math.max(maxA, maxB)} vs ${Math.min(maxA, maxB)}`,
   });
 
   // Sustain (mag size * damage / reload)

@@ -98,7 +98,7 @@ export default function HistoryPage() {
         )}
         {trackedDays > 0 && (
           <p className="mt-1 text-xs" style={{ color: 'var(--text-secondary)' }}>
-            Tracking for {trackedDays} day{trackedDays !== 1 ? 's' : ''} — history gets more accurate over time
+            Tracking for {trackedDays} day{trackedDays !== 1 ? 's' : ''} - history gets more accurate over time
           </p>
         )}
       </div>
