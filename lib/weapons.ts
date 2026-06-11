@@ -17,34 +17,29 @@ function dps(damage: number, fireRate: number) {
   return Math.round(damage * fireRate);
 }
 
+// Chapter 7 Season 3: Runners loot pool. Stats are community-sourced (Fandom
+// wiki, fortnitetracker, gameriv) at the current hotfix and use the Epic tier
+// unless noted; "approx." marks weapons whose exact values aren't published yet.
 export const WEAPONS: Weapon[] = [
-  { id: 'combat_ar', name: 'Combat Assault Rifle', category: 'assault', damage: 21, headshot: 31, fireRate: 9.0, magSize: 35, reloadTime: 2.9, buildDamage: 21, range: 'mid', dps: dps(21, 9.0), notes: 'High fire rate, great for spraying' },
-  { id: 'nemesis_ar', name: 'Nemesis AR', category: 'assault', damage: 33, headshot: 49, fireRate: 5.0, magSize: 28, reloadTime: 2.4, buildDamage: 33, range: 'mid', dps: dps(33, 5.0), notes: 'Balanced AR, solid at all ranges' },
-  { id: 'squibblys_combat_ar', name: "Squibbly's Combat AR", category: 'assault', damage: 25, headshot: 37, fireRate: 9.0, magSize: 35, reloadTime: 2.6, buildDamage: 25, range: 'mid', dps: dps(25, 9.0), notes: 'Mythic - fire rate ramps up when held' },
+  // New this season
+  { id: 'chaos_exploder_rifle', name: 'Chaos Exploder Rifle', category: 'explosive', damage: 38, headshot: 49, fireRate: 3.4, magSize: 25, reloadTime: 3.0, buildDamage: 70, range: 'mid', dps: dps(38, 3.4), notes: 'New - explosive rounds detonate on contact, auto-loads 2 rounds every 3s' },
+  { id: 'surgical_burst_rifle', name: 'Surgical Burst Rifle', category: 'assault', damage: 26, headshot: 39, fireRate: 5.0, magSize: 24, reloadTime: 2.3, buildDamage: 27, range: 'mid', dps: dps(26, 5.0), notes: 'New - accurate 3-round-burst AR, low recoil, minimal falloff' },
+  { id: 'flex_smg', name: 'Flex SMG', category: 'smg', damage: 17, headshot: 26, fireRate: 11.0, magSize: 40, reloadTime: 2.2, buildDamage: 17, range: 'close', dps: dps(17, 11.0), notes: 'New - dual fire mode: fast hipfire vs harder-hitting ADS' },
+  { id: 'lancehead_pistol', name: 'Lancehead Pistol', category: 'pistol', damage: 32, headshot: 43, fireRate: 6.75, magSize: 21, reloadTime: 1.5, buildDamage: 32, range: 'close', dps: dps(32, 6.75), notes: "New (Legendary) - John Wick's sidearm, throws empty mag for +35 damage" },
+  { id: 'extending_focus_shotgun', name: 'Extending Focus Shotgun', category: 'shotgun', damage: 80, headshot: 120, fireRate: 2.0, magSize: 3, reloadTime: 2.0, buildDamage: 80, range: 'mid', dps: dps(80, 2.0), notes: 'New - triple-barrel, spread tightens over a 3-round volley (stats approx.)' },
 
-  { id: 'thunder_burst_smg', name: 'Thunder Burst SMG', category: 'smg', damage: 27, headshot: 51, fireRate: 4.25, magSize: 24, reloadTime: 2.2, buildDamage: 27, range: 'close', dps: dps(27, 4.25), notes: '3-round burst, 100% hip-fire accuracy with laser' },
-  { id: 'twin_mag_smg', name: 'Twin Mag SMG', category: 'smg', damage: 18, headshot: 31, fireRate: 13.0, magSize: 25, reloadTime: 1.3, buildDamage: 18, range: 'close', dps: dps(18, 13.0), notes: 'Insane fire rate, built-in laser' },
+  // Season mythics (boss drops)
+  { id: 'mythic_burst_rifle', name: "Voidblade's Burst Rifle", category: 'assault', damage: 30, headshot: 45, fireRate: 5.0, magSize: 24, reloadTime: 2.1, buildDamage: 30, range: 'mid', dps: dps(30, 5.0), notes: 'Mythic (Voidblade boss) - tuned Surgical Burst with ADS accuracy bonus (stats approx.)' },
+  { id: 'mythic_reacher_extending_shotgun', name: 'Reacher Extending Shotgun', category: 'shotgun', damage: 101, headshot: 145, fireRate: 1.75, magSize: 3, reloadTime: 1.96, buildDamage: 101, range: 'close', dps: dps(101, 1.75), notes: 'Mythic (Skeletor boss) - combat-shotgun hybrid with unusually long reach' },
 
-  { id: 'iron_pump', name: 'Iron Pump Shotgun', category: 'shotgun', damage: 101, headshot: 165, fireRate: 0.8, magSize: 5, reloadTime: 5.1, buildDamage: 101, range: 'close', dps: dps(101, 0.8), notes: '10 pellets per shot, per-shell reload' },
-  { id: 'twin_hammer', name: 'Twin Hammer Shotguns', category: 'shotgun', damage: 35, headshot: 61, fireRate: 3.0, magSize: 10, reloadTime: 4.5, buildDamage: 35, range: 'close', dps: dps(35, 3.0), notes: 'Alternating barrels, fastest shotgun' },
-  { id: 'chaos_reloader', name: 'Chaos Reloader Shotgun', category: 'shotgun', damage: 160, headshot: 175, fireRate: 0.55, magSize: 1, reloadTime: 1.2, buildDamage: 160, range: 'close', dps: dps(160, 0.55), notes: 'Auto-reloads when stowed, tight spread' },
-  { id: 'dark_voyager_obliterator', name: "Dark Voyager's Obliterator", category: 'shotgun', damage: 179, headshot: 175, fireRate: 0.55, magSize: 2, reloadTime: 1.2, buildDamage: 179, range: 'close', dps: dps(179, 0.55), notes: 'Mythic Chaos Reloader - 2 shots, auto-reloads when stowed' },
-
-  { id: 'vector7_dmr', name: 'Vector 7 DMR', category: 'dmr', damage: 68, headshot: 119, fireRate: 2.5, magSize: 5, reloadTime: 2.5, buildDamage: 68, range: 'long', dps: dps(68, 2.5), notes: 'Hitscan under 100m, bullet drop beyond' },
-  { id: 'foundations_rift_rifle', name: "The Foundation's Rift Rifle", category: 'dmr', damage: 71, headshot: 124, fireRate: 2.5, magSize: 5, reloadTime: 2.5, buildDamage: 71, range: 'long', dps: dps(71, 2.5), notes: 'Exotic - charged shot spawns a teleport rift' },
-
-  { id: 'tracking_rifle', name: 'Lawful Heavy Impact Tracking Rifle', category: 'sniper', damage: 138, headshot: 345, fireRate: 0.64, magSize: 1, reloadTime: 2.7, buildDamage: 193, range: 'long', dps: dps(138, 0.64), notes: 'Exotic - marks enemies for 10s, 3x vehicle damage' },
-
-  { id: 'pistol', name: 'Pistol', category: 'pistol', damage: 26, headshot: 45, fireRate: 6.75, magSize: 16, reloadTime: 1.4, buildDamage: 26, range: 'mid', dps: dps(26, 6.75), notes: 'Classic sidearm, fast and reliable' },
-  { id: 'mammoth_pistol', name: 'Lawful Explosive Mammoth Pistol', category: 'pistol', damage: 110, headshot: 148, fireRate: 1.0, magSize: 1, reloadTime: 1.71, buildDamage: 140, range: 'mid', dps: dps(110, 1.0), notes: 'Exotic - 55 bullet + 55 explosion damage' },
-
-  { id: 'bouncing_boomstick', name: 'Bouncing Boomstick', category: 'explosive', damage: 40, headshot: 40, fireRate: 1.0, magSize: 3, reloadTime: 0, buildDamage: 80, range: 'mid', dps: dps(40, 4.0), notes: 'Throwable - bounces and explodes 4 times (160 max)' },
-  { id: 'shockwave_rl', name: 'Lawful Shockwave Rocket Launcher', category: 'explosive', damage: 30, headshot: 30, fireRate: 0.75, magSize: 1, reloadTime: 2.5, buildDamage: 100, range: 'mid', dps: dps(30, 0.75), notes: 'Exotic - launches players away, minimal damage' },
-  { id: 'cluster_cannon', name: 'Seven Cluster Cannon', category: 'explosive', damage: 77, headshot: 77, fireRate: 1.0, magSize: 1, reloadTime: 3.0, buildDamage: 200, range: 'mid', dps: dps(77, 1.0), notes: 'Legendary - splits into 7 cluster explosives on impact' },
-
-  { id: 'power_gloves', name: 'Seven Power Gloves', category: 'melee', damage: 50, headshot: 50, fireRate: 1.5, magSize: 4, reloadTime: 11.0, buildDamage: 50, range: 'close', dps: dps(50, 1.5), notes: 'Punch 50, dash 40, uppercut 70 - great mobility' },
-  { id: 'ice_king_gauntlets', name: "Ice King's Gauntlets", category: 'melee', damage: 50, headshot: 50, fireRate: 2.0, magSize: 10, reloadTime: 3.0, buildDamage: 50, range: 'close', dps: dps(50, 2.0), notes: 'Mythic - ice bomb 65 dmg, blizzard 5 dps area denial' },
-  { id: 'harpoon_gun', name: 'Harpoon Gun', category: 'melee', damage: 75, headshot: 75, fireRate: 0.75, magSize: 20, reloadTime: 0, buildDamage: 150, range: 'mid', dps: dps(75, 0.75), notes: '20 charges, pulls enemies toward you, missed shots free' },
+  // Returning weapons
+  { id: 'stinger_smg', name: 'Stinger SMG', category: 'smg', damage: 21, headshot: 32, fireRate: 11.5, magSize: 33, reloadTime: 2.37, buildDamage: 21, range: 'close', dps: dps(21, 11.5), notes: 'Hitscan close-range SMG, light bullets' },
+  { id: 'maven_auto_shotgun', name: 'Maven Auto Shotgun', category: 'shotgun', damage: 89, headshot: 156, fireRate: 3.0, magSize: 6, reloadTime: 4.99, buildDamage: 89, range: 'close', dps: dps(89, 3.0), notes: 'Full-auto shotgun, 10 pellets, per-shell reload' },
+  { id: 'striker_pump_shotgun', name: 'Striker Pump Shotgun', category: 'shotgun', damage: 114, headshot: 211, fireRate: 0.67, magSize: 5, reloadTime: 4.66, buildDamage: 59, range: 'close', dps: dps(114, 0.67), notes: 'Classic pump, 12 pellets, highest per-shot burst' },
+  { id: 'chaos_reloader_shotgun', name: 'Chaos Reloader Shotgun', category: 'shotgun', damage: 144, headshot: 173, fireRate: 0.85, magSize: 6, reloadTime: 1.8, buildDamage: 144, range: 'close', dps: dps(144, 0.85), notes: 'Tight spread, auto-reloads ~every 2s while stowed' },
+  { id: 'hunting_rifle', name: 'Hunting Rifle', category: 'sniper', damage: 96, headshot: 240, fireRate: 0.8, magSize: 1, reloadTime: 1.71, buildDamage: 96, range: 'long', dps: dps(96, 0.8), notes: 'No-scope bolt-action, 2.5x headshot, no scope glare' },
+  { id: 'business_turret', name: 'Business Turret', category: 'explosive', damage: 7, headshot: 7, fireRate: 8.5, magSize: 9999, reloadTime: 0, buildDamage: 7, range: 'mid', dps: dps(7, 8.5), notes: 'Deployable auto-turret, locks on, infinite ammo, ~60m range' },
+  { id: 'ranger_pistol', name: 'Ranger Pistol', category: 'pistol', damage: 31, headshot: 62, fireRate: 6.1, magSize: 17, reloadTime: 1.45, buildDamage: 30, range: 'mid', dps: dps(31, 6.1), notes: 'Full-auto suppressed sidearm with built-in laser sight' },
 ];
 
 export function getWeaponDisplayName(w: Weapon): string {
