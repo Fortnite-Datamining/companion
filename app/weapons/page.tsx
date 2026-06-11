@@ -97,7 +97,10 @@ export default function WeaponsPage() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold">Weapon Comparison</h1>
         <p className="mt-1" style={{ color: 'var(--text-secondary)' }}>
-          Chapter 7 Season 2 - pick two weapons and see which wins
+          Chapter 7 Season 3: Runners - pick two weapons and see which wins
+        </p>
+        <p className="mt-2 text-xs" style={{ color: 'var(--text-secondary)' }}>
+          Community-sourced stats at the current hotfix. The Seven Sliders mobility item isn&apos;t a weapon, so it&apos;s not listed.
         </p>
       </div>
 
